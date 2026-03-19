@@ -9,5 +9,29 @@ resource "aws_instance" "my-server"{
 	 tags={
 		Name= var.server_name
 
+  }
 }
+
+
+resource "aws_instance" "my-server2"{
+   ami= var.ami_id
+   instance_type= var.instance_type
+   tags={
+    Name= "server-2"
+
+
+
+  }
+}
+
+
+resource "aws_instance" "my-server3"{
+   ami= var.ami_id
+   instance_type= var.instance_type
+   tags={
+    Name= "server-3"
+
+
+
+  }
 }
