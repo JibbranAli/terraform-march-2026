@@ -1,0 +1,1 @@
+{"filename": "builds\\3e53abda114762257c38f1178623b02f6ef1dc004a65de842bbebd61e4e910af.zip", "runtime": "pyhton3.9", "artifacts_dir": "builds", "build_plan": [["zip", "./lambda", null]]}
